@@ -20,12 +20,12 @@ This is a solution to the [Tip calculator app on Frontend Mentor](https://www.fr
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- Control the toggle with both their mouse/trackpad and their keyboard
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Calculate the correct tip and total cost of the bill per person
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/86482525/125686926-5dc70f19-d1cb-40e8-bf23-668425f66c31.png)
 
 ### Links
 
@@ -39,7 +39,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - JavaScript
-- Responsive design with mobile-first workflow
 
 ### What I learned
 
