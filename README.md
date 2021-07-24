@@ -10,7 +10,7 @@ This is a solution to the [Tip calculator app on Frontend Mentor](https://www.fr
   - [Links](#links)
 - [My process](#my-process)🧩
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What I learned](#what-i-learned)📝
   - [Useful resources](#useful-resources)
 - [Author](#author)🙋🏻
 
@@ -40,23 +40,15 @@ Users should be able to:
 - Flexbox
 - JavaScript
 
-### What I learned
+### What I learned📝
 
 - Use <b>transform</b> to move an element: in this case, i wanted to move the slider to the other side.
 ```css
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
+
 ```
 - Use <b>for</b> to select multiples elements: in this case, i wanted to change the text from the price.
 ```js
-if (checkbox.checked == true) {
-    for (i = 0; i < price.length; i++) {
-        price[0].innerHTML = "19.99";
-        price[1].innerHTML = "24.99";
-        price[2].innerHTML = "39.99";
-    } 
-}
+
 ```
 
 ### Useful resources
