@@ -2,43 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Tip calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  Bill
-
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
-
-  Number of People
-
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
-  
-  <div class="attribution">
+  <h1>
+    <a href="index.html" target="_self">
+    <img id="logo"src="images/logo.svg" alt="site logo">
+    </a>
+  </h1>
+<main>
+    <section id="left">
+      <h2>Bill</h2>
+      <input type="text" name="tip">
+      <h2>Select Tip %</h2> 
+      <article id="percent">
+        <span class="span-percent">5%</span>
+        <span class="span-percent">10%</span>
+        <span class="span-percent">15%</span>
+        <span class="span-percent">25%</span>
+        <span class="span-percent">50%</span>
+        <span class="span-custom">Custom</span>
+      </article>
+      <h2>Number of People</h2>
+      <input type="text" name="people">
+    </section>
+    <aside id="right">
+      <p>
+        Tip Amount <br>
+        <span>/ person</span>
+      </p>
+      <p>
+        Total <br>
+        <span>/ person</span>
+      </p>
+      <button>RESET</button>
+    </aside>
+</main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/alvaro-j/">Álvaro J</a>.
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
