@@ -61,14 +61,21 @@ input {
 #percent {
   display: inlin-grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 .span-percent {
-    color: var(--light-grayish-cyan-2);
-    background-color: var(--very-dark-cyan);
-    padding: 5px 30px;
-    border-radius: 3px;
+  color: var(--light-grayish-cyan-2);
+  background-color: var(--very-dark-cyan);
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.span-custom {
+  color: var(--light-grayish-cyan-2);
+  background-color: var(--very-dark-cyan);
+  border-radius: 3px;
+  font-weight: 700;
 }
 /*===================== RIGHT =================================*/
 #right {
@@ -89,9 +96,9 @@ input {
 }
 
 #right p {
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 #right span {
