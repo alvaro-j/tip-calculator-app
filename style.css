@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Space Mono", sans-serif;
 }
 
 :root {
@@ -16,7 +17,6 @@
 
 body {
   background: var(--light-grayish-cyan-1);
-  font-family: "Space Mono", sans-serif;
 }
 
 main {
@@ -30,11 +30,12 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  box-shadow: 1px 1px 10px hsla(184, 23%, 73%, 0.582);
 }
 
 #logo {
   position: absolute;
-  top: 30%;
+  top: 11%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -42,7 +43,7 @@ main {
 #left {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   gap: 6px;
 }
 
@@ -51,11 +52,30 @@ main {
   color: var(--dark-grayish-cyan-1);
 }
 
-input {
+.input {
   width: 280px;
-  height: 25px;
-  border-width: 0;
+  height: 30px;
+  border: none;
+  outline: none;
   background-color: var(--light-grayish-cyan-2);
+  font-size: 24px;
+  border-radius: 4px;
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+  text-align: end;
+  padding: 5px 10px;
+}
+
+.input:focus {
+  border: 1px solid  var(--strong-cyan);
+}
+
+.input-dollar {
+  background: url(images/icon-dollar.svg) no-repeat 3% 50%;
+}
+
+.input-person {
+  background: url(images/icon-person.svg) no-repeat 3% 50% ;
 }
 
 #percent {
@@ -81,7 +101,7 @@ input {
 #right {
   background: var(--very-dark-cyan);
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   color: var(--light-grayish-cyan-2);
 }
 
@@ -93,6 +113,7 @@ input {
   border-width: 0;
   border-radius: 5px;
   background-color: hsl(183, 100%, 19%);
+  margin-top: 50px;
 }
 
 #right p {
@@ -101,11 +122,20 @@ input {
   margin-bottom: 30px;
 }
 
-#right span {
+.person {
   color: var(--dark-grayish-cyan-2);
   font-size: 11px;
 }
 
+#right p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-right {
+  font-size: 3em;
+  color: var(--strong-cyan);
+}
 /*===================== FOOTER =================================*/
 footer {
   font-family: sans-serif;
