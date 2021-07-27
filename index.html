@@ -19,7 +19,7 @@
 <main>
     <section id="left">
       <h2>Bill</h2>
-      <input type="text" name="tip">
+      <input class="input input-dollar" type="text" name="tip">
       <h2>Select Tip %</h2> 
       <article id="percent">
         <span class="span-percent">5%</span>
@@ -30,16 +30,26 @@
         <span class="span-custom">Custom</span>
       </article>
       <h2>Number of People</h2>
-      <input type="text" name="people">
+      <input class="input input-person" type="text" name="people">
     </section>
     <aside id="right">
       <p>
-        Tip Amount <br>
-        <span>/ person</span>
+        <span>
+          Tip Amount <br>
+          <span class="person">/ person</span>
+        </span>
+        <span class="price-right">
+          $0.00
+        </span>
       </p>
       <p>
-        Total <br>
-        <span>/ person</span>
+        <span>
+          Total <br>
+          <span class="person">/ person</span>
+        </span>
+        <span class="price-right">
+          $0.00
+        </span>
       </p>
       <button>RESET</button>
     </aside>
