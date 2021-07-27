@@ -57,7 +57,7 @@ main {
   height: 30px;
   border: none;
   outline: none;
-  background-color: var(--light-grayish-cyan-2);
+  background-color: var(--dark-grayish-cyan-1);
   font-size: 24px;
   border-radius: 4px;
   color: var(--very-dark-cyan);
@@ -79,9 +79,10 @@ main {
 }
 
 #percent {
-  display: inlin-grid;
+  display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px 10px;
 }
 
 .span-percent {
@@ -89,13 +90,20 @@ main {
   background-color: var(--very-dark-cyan);
   border-radius: 3px;
   font-weight: 700;
+  text-align: center;
+  padding: 5px 10px;
+  width: 60px;
 }
 
 .span-custom {
   color: var(--light-grayish-cyan-2);
-  background-color: var(--very-dark-cyan);
+  background-color: var(--light-grayish-cyan-2);
+  color: var(--dark-grayish-cyan-1);
   border-radius: 3px;
   font-weight: 700;
+  text-align: center;
+  padding: 5px 10px;
+  width: 60px;
 }
 /*===================== RIGHT =================================*/
 #right {
