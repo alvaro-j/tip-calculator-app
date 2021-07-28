@@ -25,7 +25,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,6 +38,8 @@ main {
   top: 11%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 5%;
+  height: 6%;
 }
 /*===================== LEFT =================================*/
 #left {
@@ -57,7 +59,6 @@ main {
   height: 30px;
   border: none;
   outline: none;
-  background-color: var(--dark-grayish-cyan-1);
   font-size: 24px;
   border-radius: 4px;
   color: var(--very-dark-cyan);
@@ -71,11 +72,14 @@ main {
 }
 
 .input-dollar {
-  background: url(images/icon-dollar.svg) no-repeat 3% 50%;
+  background: url(images/icon-dollar.svg) no-repeat 3% 50% var(--light-grayish-cyan-2);
+  ;
+  background-size: 3.3%;
 }
 
 .input-person {
-  background: url(images/icon-person.svg) no-repeat 3% 50% ;
+  background: url(images/icon-person.svg) no-repeat 3% 50% var(--light-grayish-cyan-2);
+  background-size: 4%;
 }
 
 #percent {
@@ -83,6 +87,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 10px 10px;
+  font-size: 19px;
 }
 
 .span-percent {
@@ -93,7 +98,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;  
-  height: 35px;
 }
 
 .span-custom {
