@@ -101,15 +101,19 @@ main {
 }
 
 .span-custom {
+  border-width: 0;
+  width: 100%;
   color: var(--light-grayish-cyan-2);
   background-color: var(--light-grayish-cyan-2);
   color: var(--dark-grayish-cyan-1);
   border-radius: 3px;
   font-weight: 700;
   display: flex;
-  justify-content: center;
+  text-align: end;
+  justify-content: end;
   align-items: center;  
 }
+
 /*===================== RIGHT =================================*/
 #right {
   background: var(--very-dark-cyan);
