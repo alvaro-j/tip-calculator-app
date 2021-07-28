@@ -1,6 +1,9 @@
-var input = document.getElementsByClassName('input').value
+var input = document.getElementsByClassName('input');
+var i;
 if (input.length != 0) {
-    input[1].style.color = 'hsl(184, 14%, 56%)'
+    for (i = 0; i < input.length; i++) {
+        input[i].value = '0'
+    } 
 } else {
-    alert('teste')
+    alert(input.innerHTML)
 }
