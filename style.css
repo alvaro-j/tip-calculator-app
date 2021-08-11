@@ -55,7 +55,7 @@ main {
 }
 
 .input {
-  color: var(--dark-grayish-cyan-2);
+  color: var(--very-dark-cyan);
   width: 280px;
   height: 30px;
   border: none;
@@ -66,12 +66,12 @@ main {
   text-align: end;
   padding: 5px 10px;
 }
-
+/*
 .input:focus {
   border: 1px solid  var(--strong-cyan);
   color: var(--very-dark-cyan);
 }
-
+*/
 .input-dollar {
   background: url(images/icon-dollar.svg) no-repeat 3% 50% var(--light-grayish-cyan-2);
   background-size: 3.3%;
