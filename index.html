@@ -27,12 +27,14 @@
       <article id="percent">
         <span class="span-percent">5%</span>
         <span class="span-percent">10%</span>
-        <span class="span-percent">15%</span>
+        <span class="span-percent btn-active">15%</span>
         <span class="span-percent">25%</span>
         <span class="span-percent">50%</span>
         <input type="text" class="span-custom" placeholder="Custom"></input>
       </article>
-      <h2>Number of People</h2>
+      <div class="div-people">
+        <h2>Number of People</h2> <span class="error-msg">Can't be zero</span>
+      </div>
       <input class="input input-person" type="text" name="people" placeholder="0">
     </section>
     <!-- RIGHT ------------------------------------------------------------>
@@ -42,7 +44,7 @@
           Tip Amount <br>
           <span class="person">/ person</span>
         </span>
-        <span class="price-right">
+        <span class="price-right value">
           $0.00
         </span>
       </p>
@@ -51,7 +53,7 @@
           Total <br>
           <span class="person">/ person</span>
         </span>
-        <span class="price-right">
+        <span class="price-right value">
           $0.00
         </span>
       </p>
