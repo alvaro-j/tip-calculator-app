@@ -13,6 +13,9 @@ tipCustom.value = '';
 tipCustom.addEventListener('input', setTipCustomValue);
 var person = document.querySelector('.input-person');
 person.addEventListener('input', setPersonValue);
+var errorMsg = document.querySelector('.error-msg');
+var results = document.querySelectorAll('.value');
+
 
 var btnReset = document.getElementById("btn-reset");
 
@@ -38,7 +41,9 @@ function setBillValue() {
         bill.value = bill.value.replace(',' , '.');
     }
     billValue = parseFloat(bill.value);
-    console.log(billValue);
+
+    calculateTip();
+
 }
 
 function setTipCustomValue() {
@@ -54,4 +59,19 @@ function setTipCustomValue() {
 function setPersonValue() {
     personValue = parseFloat(person.value);
     console.log(personValue);
+    if(personValue <= 0) {
+        errorMsg.classList.add('show-error-msg');
+        setTimeout(function () {
+            errorMsg.classList.remove('show-error-msg');
+        }, 3000);
+    }
+}
+
+function calculateTip() {
+    if (persoValue >= 1) {
+        var tipAmount = billValue * tipValue / personValue;
+        var total = billValue * (tipValue + 1) / personValue;
+        results[0].innerHTML = '$' + tipAmount.toFixed(2);
+        results[1].innerHTML =  '$' + total.toFixed(2);
+    }
 }
