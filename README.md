@@ -25,7 +25,7 @@ Users should be able to:
 - Calculate the correct tip and total cost of the bill per person
 
 ### Screenshot
-
+![image](https://user-images.githubusercontent.com/86482525/132128435-8739d8c2-47d3-459d-8499-7ae465b4b7ae.png)
 
 ### Links🔗
 
