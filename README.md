@@ -7,9 +7,9 @@ This is a solution to the [Tip calculator app on Frontend Mentor](https://www.fr
 - [Overview](#overview)🎯
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Links](#links)🔗
 - [My process](#my-process)🧩
-  - [Built with](#built-with)
+  - [Built with](#built-with)🔨
   - [What I learned](#what-i-learned)📝
   - [Useful resources](#useful-resources)
 - [Author](#author)🙋🏻
@@ -27,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 
-### Links
+### Links🔗
 
 - Live Site URL: [https://alvaro-j.github.io/tip-calculator-app/](https://alvaro-j.github.io/pricing-component/)
 
