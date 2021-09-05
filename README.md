@@ -58,7 +58,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Position the footer](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) - This helped me to place the footer in the right place.
+- [CSS Grid layout](https://www.youtube.com/watch?v=hKXOVD2Yrj8) - This helped me to understand how to use grid in CSS.
 
 ## Author🙋🏻
 
