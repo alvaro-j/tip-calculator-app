@@ -51,9 +51,13 @@ Users should be able to:
   gap: 10px 10px;
 }
 ```
-- Use <b>for</b> to select multiples elements: in this case, i wanted to change the text from the price.
+- Use <strong>the add() method</strong> to add a class to an element: in this case, i wanted to show the error message if the value was zero.
 ```js
-
+function setPersonValue() {
+    if(personValue <= 0) {
+        errorMsg.classList.add('show-error-msg');
+    }
+}
 ```
 
 ### Useful resources
