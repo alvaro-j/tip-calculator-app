@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links🔗
 
-- Live Site URL: [https://alvaro-j.github.io/tip-calculator-app/](https://alvaro-j.github.io/pricing-component/)
+- Live Site URL: [https://alvaro-j.github.io/tip-calculator-app/](https://alvaro-j.github.io/tip-calculator-app/)
 
 ## My process🧩
 
