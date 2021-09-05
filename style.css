@@ -38,8 +38,6 @@ main {
   top: 11%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 5%;
-  height: 6%;
 }
 /*===================== LEFT =================================*/
 #left {
@@ -63,7 +61,7 @@ input:hover {
 }
 
 .input {
-  color: var(--dark-grayish-cyan-2);
+  color: var(--very-dark-cyan);
   width: 280px;
   height: 30px;
   border: none;
@@ -77,7 +75,6 @@ input:hover {
 
 input:focus {
   border: 2px solid  var(--strong-cyan);
-  color: var(--very-dark-cyan);
   cursor: text;
 }
 
@@ -197,14 +194,32 @@ input:focus {
   font-size: 3em;
   color: var(--strong-cyan);
 }
-/*===================== FOOTER =================================*/
-footer {
-  font-family: sans-serif;
-  font-size: 14px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: 10px 0;
-}
 /*===================== RESPONSIVE =================================*/
+
+@media (max-width: 750px) {
+  main {
+    display: block;
+    top: 63%;
+  }
+
+  #percent {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .input-person {
+    margin-bottom: 20px;
+  }
+
+  .input {
+    width: 320px;
+  }
+
+  #right p {
+    margin: 0;
+  }
+
+  .span-custom, .span-percent {
+    padding: 5px 0;
+  }
+}
