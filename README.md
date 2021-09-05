@@ -42,9 +42,14 @@ Users should be able to:
 
 ### What I learned📝
 
-- Use <b>transform</b> to move an element: in this case, i wanted to move the slider to the other side.
+- Use <strong>CSS Grid layout</strong> to organize the elements: in this case, i wanted to sort the percentages.
 ```css
-
+#percent {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px 10px;
+}
 ```
 - Use <b>for</b> to select multiples elements: in this case, i wanted to change the text from the price.
 ```js
