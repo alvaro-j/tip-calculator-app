@@ -2,9 +2,8 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: (auto)[6];
-      grid-template-rows: repeat(6, auto);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
   gap: 6px;
 }
 
@@ -52,10 +51,8 @@
 #left #percent {
   display: -ms-inline-grid;
   display: inline-grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (auto)[2];
-      grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
   gap: 10px 10px;
 }
 
@@ -68,11 +65,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 19px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -111,8 +108,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #left .error-msg {
@@ -162,8 +159,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #right .person {
@@ -183,7 +180,7 @@
   }
   #percent {
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 0;
   }
   .input-person {
@@ -217,17 +214,17 @@ main {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background: #fff;
   border-radius: 20px;
   padding: 30px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
   -webkit-box-shadow: 1px 1px 10px rgba(170, 200, 202, 0.582);
-          box-shadow: 1px 1px 10px rgba(170, 200, 202, 0.582);
+  box-shadow: 1px 1px 10px rgba(170, 200, 202, 0.582);
 }
 
 #logo {
@@ -235,6 +232,6 @@ main {
   top: 11%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */
