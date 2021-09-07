@@ -1,0 +1,240 @@
+#left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (auto)[6];
+      grid-template-rows: repeat(6, auto);
+  gap: 6px;
+}
+
+#left h2 {
+  font-size: 14px;
+  color: #5e7a7d;
+}
+
+#left input {
+  cursor: pointer;
+}
+
+#left input:hover {
+  border: 2px solid #26c0ab;
+}
+
+#left input:focus {
+  border: 2px solid #26c0ab;
+  cursor: text;
+}
+
+#left .input {
+  color: #00494d;
+  width: 280px;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-align: end;
+  padding: 5px 10px;
+}
+
+#left .input-dollar {
+  background: url(images/icon-dollar.svg) no-repeat 3% 50% #f4fafa;
+  background-size: 3.3%;
+}
+
+#left .input-person {
+  background: url(images/icon-person.svg) no-repeat 3% 50% #f4fafa;
+  background-size: 4%;
+}
+
+#left #percent {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  gap: 10px 10px;
+}
+
+#left .span-percent {
+  color: #f4fafa;
+  background-color: #00494d;
+  border-radius: 3px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#left .span-percent:hover {
+  background-color: #9fe8df;
+  color: #00494d;
+  cursor: pointer;
+}
+
+#left .span-custom {
+  border-width: 0;
+  width: 100%;
+  background-color: #f4fafa;
+  color: #5e7a7d;
+  border-radius: 3px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 19px;
+  outline: 0;
+}
+
+#left .span-custom:focus {
+  color: #00494d;
+  text-align: end;
+}
+
+#left .btn-active {
+  background-color: #26c0ab;
+  color: #00494d;
+}
+
+#left .div-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#left .error-msg {
+  color: indianred;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0;
+}
+
+#left .show-error-msg {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#right {
+  background: #00494d;
+  border-radius: 10px;
+  padding: 30px;
+  color: #f4fafa;
+}
+
+#right button {
+  color: #00494d;
+  font-size: 17px;
+  font-weight: 700;
+  width: 280px;
+  height: 35px;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: #005c61;
+  margin-top: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#right button:hover {
+  background-color: #9fe8df;
+  cursor: pointer;
+}
+
+#right p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#right .person {
+  color: #7f9c9f;
+  font-size: 11px;
+}
+
+#right .price-right {
+  font-size: 3em;
+  color: #26c0ab;
+}
+
+@media (max-width: 750px) {
+  main {
+    display: block;
+    top: 63%;
+  }
+  #percent {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+  .input-person {
+    margin-bottom: 20px;
+  }
+  .input {
+    width: 320px;
+  }
+  #right p {
+    margin: 0;
+  }
+  .span-custom,
+  .span-percent {
+    padding: 5px 0;
+  }
+}
+
+/*===================== GENERAL =================================*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", sans-serif;
+}
+
+body {
+  background: #c5e4e7;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  -webkit-box-shadow: 1px 1px 10px rgba(170, 200, 202, 0.582);
+          box-shadow: 1px 1px 10px rgba(170, 200, 202, 0.582);
+}
+
+#logo {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+#right {
+  background: $veryDarkCyan;
+  border-radius: 10px;
+  padding: 30px;
+  color: $lightGrayishCyan2;
+
+  button {
+    color: $veryDarkCyan;
+    font-size: 17px;
+    font-weight: 700;
+    width: 280px;
+    height: 35px;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 19%);
+    margin-top: 50px;
+    transition: 0.3s;
+    &:hover {
+      background-color: #9fe8df;
+      cursor: pointer;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .person {
+    color: $darkGrayishCyan2;
+    font-size: 11px;
+  }
+
+  .price-right {
+    font-size: 3em;
+    color: $strongCyan;
+  }
+}
