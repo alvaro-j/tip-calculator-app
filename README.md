@@ -38,6 +38,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS Flexbox
 - CSS Grid Layout
+- SASS
 - JavaScript
 
 ### What I learned📝
