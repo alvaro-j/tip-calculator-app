@@ -67,5 +67,5 @@ function setPersonValue() {
 
 ## Author🙋🏻
 
-- Github - [Álvaro J.](https://www.github.com/alvaro-j/)
+- Website - [Álvaro J.](https://portifolio-2021-ecru.vercel.app/)
 - Frontend Mentor - [@alvaro-j](https://www.frontendmentor.io/profile/alvaro-j)
